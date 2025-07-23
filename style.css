@@ -72,35 +72,81 @@
   width: 100%;
   position: relative;
   top: 30px;
- right: 33px;
- 
+  right: 33px;
 }
-.influencer{
-  background-image: url('./images/Circle\ design.svg');
-  background-repeat: no-repeat;
-  background-position: top right;
-  
+
+/* Popular Collection */
+.Collection {
+  max-width: 1140px;
+}
+.Collection-title {
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+.Collection-card {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  width: 339px;
+  height: 480px;
+  border-radius: 5px;
+
+  padding: 15px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+  background: #ffffff;
+}
+.card img {
+  width: 100%;
+}
+
+.cardtitle {
+  margin: 6px;
+  color: #18191f;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 5px;
+  padding-bottom: 8px;
+}
+.reting {
+  color: #fb8200;
+}
+.card-description {
+  margin-top: 2px;
+  color: #787885;
 }
 
 /* mobile device responsive */
-@media screen and (max-width:576px) {
-    .navbar,
-    ul,
-    .influencer{
-        flex-direction: column;
-    }
-    .influencer{
-        background-image: none;
-    }
-    
+@media screen and (max-width: 576px) {
+  .navbar,
+  ul,
+  .influencer {
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+  }
+  .influencer {
+    background-image: none;
+  }
+  .btn-primary {
+    margin-top: 10px;
+    margin-left: 110px;
+  }
 }
 
-
 /* medium device responsive */
-@media screen and (min-width:577px) and (max-width:993px) {
-    .influencer-description{
-     width: 400px;
-    }
-        
-    
+@media screen and (min-width: 577px) and (max-width: 993px) {
+  .influencer-description {
+    width: 400px;
+  }
 }
