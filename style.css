@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 }
 .navbar ul {
   display: flex;
@@ -48,14 +49,21 @@
 }
 
 /* end nav section  */
+
+/* banner sction start  */
 .influencer {
   display: flex;
-  max-width: 1440px;
-  height: 500px;
-  margin: 0 auto;
+  align-items: center;
+   max-width: 1440px;
+  /* height: 500px;  */
+   margin: 0 auto; 
   justify-content: space-between;
   margin-top: 30px;
+  padding: 30px;
+
 }
+
+
 .influencer-title {
   font-size: 3.35rem;
   font-weight: bold;
@@ -69,19 +77,41 @@
   color: #3a3a3a;
 }
 .influencer-right img {
-  width: 100%;
+  height: 414px;
   position: relative;
   top: 30px;
   right: 33px;
+  
 }
- .influencer {
-    background-image: url('./images/Circle\ design.svg');
-    background-repeat: no-repeat;
-    background-position: top right;
-  }
+img{
+    max-width: 100%;
+}
+.influencer {
+  background-image: url("./images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+/* company setion  */
+
+.company {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 1110px;
+  margin-top: 70px;
+  /* height: 110px; */
+  gap: 60px;
+  border-top: 1px solid #c0ccda;
+  border-bottom: 1px solid #c0ccda;
+}
+.company-name {
+  width: 110px;
+}
+
 /* Popular Collection */
 .Collection {
   max-width: 1140px;
+  margin-top: 100px;
 }
 .Collection-title {
   font-size: 1.75rem;
@@ -139,12 +169,25 @@
     flex-direction: column;
     /* flex-direction: column-reverse; */
   }
+  .company{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .Collection{
+    /* margin-top: 300px; */
+  }
+  .Collection-card {
+    grid-template-columns: repeat(1, 1fr);
+   justify-items: center;
+  }
+
   .influencer {
     background-image: none;
   }
-  .btn-primary {
-    margin-top: 10px;
-    margin-left: 110px;
+
+  .company{
+    /* margin-top: 400px; */
+    border: none;
+    justify-items: center;
   }
 }
 
