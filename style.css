@@ -74,7 +74,11 @@
   top: 30px;
   right: 33px;
 }
-
+ .influencer {
+    background-image: url('./images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
 /* Popular Collection */
 .Collection {
   max-width: 1140px;
