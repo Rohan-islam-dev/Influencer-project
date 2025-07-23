@@ -22,7 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
 .navbar ul {
   display: flex;
@@ -54,15 +53,13 @@
 .influencer {
   display: flex;
   align-items: center;
-   max-width: 1440px;
+  max-width: 1440px;
   /* height: 500px;  */
-   margin: 0 auto; 
+  margin: 0 auto;
   justify-content: space-between;
   margin-top: 30px;
   padding: 30px;
-
 }
-
 
 .influencer-title {
   font-size: 3.35rem;
@@ -78,14 +75,9 @@
 }
 .influencer-right img {
   height: 414px;
-  position: relative;
-  top: 30px;
-  right: 33px;
-  
+  max-width: 100%;
 }
-img{
-    max-width: 100%;
-}
+
 .influencer {
   background-image: url("./images/Circle\ design.svg");
   background-repeat: no-repeat;
@@ -169,22 +161,22 @@ img{
     flex-direction: column;
     /* flex-direction: column-reverse; */
   }
-  .company{
-    grid-template-columns: repeat(2,1fr);
+  .company {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .Collection{
+  .Collection {
     /* margin-top: 300px; */
   }
   .Collection-card {
     grid-template-columns: repeat(1, 1fr);
-   justify-items: center;
+    justify-items: center;
   }
 
   .influencer {
     background-image: none;
   }
 
-  .company{
+  .company {
     /* margin-top: 400px; */
     border: none;
     justify-items: center;
