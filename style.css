@@ -152,6 +152,21 @@
   margin-top: 2px;
   color: #787885;
 }
+/* footer  */
+
+footer {
+  text-align: center;
+  background-color: #0a0826;
+  max-width: 100%;
+
+  color: white;
+  padding: 50px 590px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
 
 /* mobile device responsive */
 @media screen and (max-width: 576px) {
