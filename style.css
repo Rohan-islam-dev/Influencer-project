@@ -196,6 +196,9 @@ footer a {
     border: none;
     justify-items: center;
   }
+  footer{
+    padding: 10px;
+  }
 }
 
 /* medium device responsive */
@@ -203,4 +206,8 @@ footer a {
   .influencer-description {
     width: 400px;
   }
+ footer{
+  padding: 10px 40px;
+  margin: 0 auto;
+ }
 }
