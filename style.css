@@ -81,3 +81,26 @@
   background-position: top right;
   
 }
+
+/* mobile device responsive */
+@media screen and (max-width:576px) {
+    .navbar,
+    ul,
+    .influencer{
+        flex-direction: column;
+    }
+    .influencer{
+        background-image: none;
+    }
+    
+}
+
+
+/* medium device responsive */
+@media screen and (min-width:577px) and (max-width:993px) {
+    .influencer-description{
+     width: 400px;
+    }
+        
+    
+}
