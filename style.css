@@ -1,0 +1,83 @@
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+/* commin style  */
+.mauto {
+  margin: 0px auto;
+}
+.btn-primary {
+  font-weight: bold;
+  background-color: #e02c6d;
+  color: #ffffff;
+  border: none;
+  border-radius: 41px;
+  padding: 10px 25px;
+}
+
+/* navbar */
+.navbar {
+  max-width: 1440px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+}
+#icon {
+  margin-left: 35px;
+}
+#icon2 {
+  margin-left: 30px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #3a3a3a;
+  margin-right: 30px;
+  font-weight: 600;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3a3a3a;
+}
+
+/* end nav section  */
+.influencer {
+  display: flex;
+  max-width: 1440px;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.influencer-title {
+  font-size: 3.35rem;
+  font-weight: bold;
+  max-width: 582px;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+.influencer-description {
+  max-width: 505px;
+  font-weight: 600px;
+  color: #3a3a3a;
+}
+.influencer-right img {
+  width: 100%;
+  position: relative;
+  top: 30px;
+ right: 33px;
+ 
+}
+.influencer{
+  background-image: url('./images/Circle\ design.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  
+}
